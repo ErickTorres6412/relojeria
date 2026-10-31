@@ -2,6 +2,9 @@
 
 Tienda en línea de relojes (tema 9, Relojería) desarrollada con **Nuxt 4** y **Nuxt Content**, siguiendo los tutoriales del curso.
 
+- Sitio publicado: https://relojeria-cronos.netlify.app
+- Repositorio: https://github.com/ErickTorres6412/relojeria (también guarda los comentarios de Utterances como *issues*)
+
 ## Funcionalidades
 
 | Requisito | Implementación |
@@ -46,13 +49,17 @@ Las imágenes de los relojes son ilustraciones generadas con `npm run imagenes`.
 ## Configuración pendiente (cuentas propias)
 
 1. **Snipcart:** crear cuenta en snipcart.com, copiar la *clave pública de prueba* y registrar el dominio de Netlify en *Dominios*.
-2. **Utterances:** crear un repositorio **público** en GitHub (p. ej. `usuario/relojeria-comentarios`) e instalar la app desde github.com/apps/utterances en ese repositorio.
-3. **Netlify:** conectar el repositorio. `netlify.toml` ya define el comando `npm run generate` y el directorio `dist`. En *Site configuration → Environment variables* definir:
-   - `NUXT_PUBLIC_SNIPCART_API_KEY` = clave pública de Snipcart
-   - `NUXT_PUBLIC_SITE_URL` = `https://su-sitio.netlify.app`
-   - `NUXT_PUBLIC_UTTERANCES_REPO` = `usuario/relojeria-comentarios`
+2. **Utterances:** instalar la app desde github.com/apps/utterances en el repositorio público `ErickTorres6412/relojeria`.
+3. **Netlify:** el sitio `relojeria-cronos` ya tiene definidas `NUXT_PUBLIC_SITE_URL` y `NUXT_PUBLIC_UTTERANCES_REPO`. Falta agregar `NUXT_PUBLIC_SNIPCART_API_KEY` con la clave pública de Snipcart y volver a publicar.
 
-   Después de definirlas, volver a publicar (*Trigger deploy*).
+### Volver a publicar desde la terminal
+
+```bash
+NUXT_PUBLIC_SITE_URL=https://relojeria-cronos.netlify.app NUXT_PUBLIC_SNIPCART_API_KEY=su_clave npx nuxt generate
+netlify deploy --prod --dir .output/public
+```
+
+(No use `netlify deploy --build` en Windows: la CLI no pasa las variables de entorno a la compilación y el sitio queda apuntando a `localhost`.)
 
 ## Entrega en el Aula Virtual
 

@@ -27,7 +27,7 @@ const descripcionCorta = computed(() => props.reloj.descripcion.slice(0, 120))
     :data-item-id="reloj.slug"
     :data-item-name="`${reloj.marca} ${reloj.nombre}`"
     :data-item-price="reloj.precio"
-    :data-item-url="`${siteUrl}/relojes/${reloj.slug}`"
+    :data-item-url="`${siteUrl}/relojes/${reloj.slug}/`"
     :data-item-description="descripcionCorta"
     :data-item-image="`${siteUrl}${reloj.imagen}`"
     :data-item-max-quantity="reloj.stock"

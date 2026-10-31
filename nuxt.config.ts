@@ -5,11 +5,12 @@ export default defineNuxtConfig({
   css: ['~/assets/css/main.css'],
   runtimeConfig: {
     public: {
-      // Se sobrescriben en producción con variables de entorno:
+      // Se toman de las variables de entorno al generar el sitio:
       // NUXT_PUBLIC_SNIPCART_API_KEY, NUXT_PUBLIC_SITE_URL y NUXT_PUBLIC_UTTERANCES_REPO
-      snipcartApiKey: 'CLAVE_PUBLICA_DE_PRUEBA',
-      siteUrl: 'http://localhost:3000',
-      utterancesRepo: 'usuario/relojeria-comentarios'
+      // (URL es la dirección pública que Netlify define automáticamente en cada build)
+      snipcartApiKey: process.env.NUXT_PUBLIC_SNIPCART_API_KEY || 'CLAVE_PUBLICA_DE_PRUEBA',
+      siteUrl: process.env.NUXT_PUBLIC_SITE_URL || process.env.URL || 'http://localhost:3000',
+      utterancesRepo: process.env.NUXT_PUBLIC_UTTERANCES_REPO || 'ErickTorres6412/relojeria'
     }
   },
   app: {

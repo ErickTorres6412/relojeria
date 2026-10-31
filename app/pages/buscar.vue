@@ -1,7 +1,3 @@
-<!-- app/pages/buscar.vue -->
-<!-- Búsqueda por palabras clave sobre el catálogo. El texto se recibe en ?q=
-     y se compara (sin tildes ni mayúsculas) contra nombre, marca, modelo,
-     descripción, categoría, movimiento, materiales y características. -->
 <script setup lang="ts">
 useHead({ title: 'Búsqueda' })
 
@@ -20,7 +16,6 @@ const nombreCategoria = (id: string) => categorias.value?.find(c => c.slug === i
 
 const resultados = computed(() => {
   if (!q.value) return []
-  // Cada palabra de la búsqueda debe aparecer en algún campo del reloj
   const palabras = normalizar(q.value).split(/\s+/).filter(Boolean)
   return (relojes.value || []).filter((r) => {
     const texto = normalizar([

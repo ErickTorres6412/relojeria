@@ -1,4 +1,3 @@
-<!-- app/pages/index.vue -->
 <script setup lang="ts">
 useHead({ title: 'Inicio' })
 
@@ -6,7 +5,6 @@ const { data: categorias } = await useAsyncData('inicio-categorias', () => {
   return queryCollection('categorias').order('orden', 'ASC').all()
 })
 
-// Productos destacados (patrón de comercio electrónico avanzado, Cap. 15)
 const { data: destacados } = await useAsyncData('inicio-destacados', () => {
   return queryCollection('relojes')
     .where('destacado', '=', true)

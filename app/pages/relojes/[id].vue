@@ -1,4 +1,3 @@
-<!-- app/pages/relojes/[id].vue -->
 <script setup lang="ts">
 definePageMeta({ key: route => route.fullPath })
 
@@ -18,7 +17,6 @@ const { data: categoria } = await useAsyncData(`reloj-${id}-categoria`, () => {
   return queryCollection('categorias').where('slug', '=', reloj.value!.categoria).first()
 })
 
-// Venta cruzada: otros relojes de la misma categoría (Cap. 15)
 const { data: relacionados } = await useAsyncData(`reloj-${id}-relacionados`, () => {
   return queryCollection('relojes')
     .where('categoria', '=', reloj.value!.categoria)

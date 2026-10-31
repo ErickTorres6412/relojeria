@@ -1,5 +1,3 @@
-<!-- app/components/MigasPan.vue -->
-<!-- Navegación suplementaria: ruta de migas de pan (breadcrumbs) -->
 <script setup lang="ts">
 defineProps<{
   items: { texto: string, to?: string }[]

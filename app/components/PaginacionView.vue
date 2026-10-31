@@ -1,6 +1,3 @@
-<!-- app/components/PaginacionView.vue -->
-<!-- Enlaces de paginación: Anterior, números de página y Siguiente.
-     La página 1 usa la ruta base y las demás agregan /2, /3, ... -->
 <script setup lang="ts">
 const props = defineProps<{
   pagina: number

@@ -1,7 +1,3 @@
-<!-- app/components/BotonComprar.vue -->
-<!-- Botón de compra de Snipcart: la clase snipcart-add-item y los atributos
-     data-item-* describen el producto. Snipcart valida el precio visitando
-     data-item-url, que debe ser la página de detalle del reloj en el sitio publicado. -->
 <script setup lang="ts">
 const props = defineProps<{
   reloj: {

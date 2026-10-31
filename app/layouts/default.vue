@@ -1,4 +1,3 @@
-<!-- app/layouts/default.vue -->
 <template>
   <div class="sitio">
     <HeaderView />

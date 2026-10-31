@@ -1,7 +1,3 @@
-// scripts/generar-imagenes.mjs
-// Genera una ilustración SVG para cada reloj del catálogo a partir de sus datos
-// (forma de la caja, material, correa, color de esfera). Uso: npm run imagenes
-// Las imágenes se pueden reemplazar luego por fotografías reales con el mismo nombre.
 import { readdirSync, readFileSync, writeFileSync, mkdirSync } from 'node:fs'
 import { join } from 'node:path'
 
@@ -9,7 +5,6 @@ const dirRelojes = 'content/relojes'
 const dirSalida = 'public/images/relojes'
 mkdirSync(dirSalida, { recursive: true })
 
-// Color de esfera propio de algunos modelos
 const esferas = {
   'tissot-everytime': '#f4f1ea', 'orient-bambino-v2': '#efe4cc', 'hamilton-jazzmaster-viewmatic': '#2b3a55',
   'citizen-eco-drive-corso': '#1d1d1f', 'fossil-minimalist': '#1f3b73', 'longines-la-grande-classique': '#fbfaf6',
@@ -22,7 +17,6 @@ const esferas = {
   'casio-gshock-ga2100': '#0f0f0f'
 }
 
-// Colores de correa para modelos de silicona/resina
 const correasColor = {
   'garmin-forerunner-265': '#2a6f97', 'samsung-galaxy-watch7': '#3b4252', 'apple-watch-series-10': '#c7b8a6',
   'google-pixel-watch-3': '#8fa89b', 'garmin-venu-3': '#555', 'timex-ironman-classic': '#222',
@@ -116,7 +110,6 @@ function agujas(cx, cy, radio, color, segundero = '#c0392b') {
     const a = (deg - 90) * Math.PI / 180
     return `<line x1="${cx}" y1="${cy}" x2="${(cx + Math.cos(a) * largo).toFixed(1)}" y2="${(cy + Math.sin(a) * largo).toFixed(1)}" stroke="${col}" stroke-width="${ancho}" stroke-linecap="round"/>`
   }
-  // 10:09:30, la hora típica de las fotografías de relojes
   return ang(304.5, radio * 0.5, 7, color) + ang(54, radio * 0.75, 5, color) + ang(180, radio * 0.82, 2, segundero) +
     `<circle cx="${cx}" cy="${cy}" r="6" fill="${color}"/><circle cx="${cx}" cy="${cy}" r="2.5" fill="${segundero}"/>`
 }
@@ -204,7 +197,6 @@ function generar(r) {
     cuerpo += `<text x="${cx}" y="${cy - 25}" font-size="11" font-family="Georgia,serif" text-anchor="middle" fill="#222" letter-spacing="1">${r.marca}</text>`
     cuerpo += agujas(cx, cy, 70, '#1f3f8f', '#1f3f8f')
   } else if (f === 'cuadrada' || f === 'digital' || r.categoria === 'smartwatches') {
-    // Pantalla rectangular (smartwatches cuadrados y digitales retro)
     const w = f === 'digital' ? 150 : 168, h = f === 'digital' ? 140 : 196
     cuerpo += `<rect x="${cx - w / 2}" y="${cy - h / 2}" width="${w}" height="${h}" rx="${f === 'digital' ? 18 : 44}" fill="url(#gCaja)" stroke="${caja.sombra}" stroke-width="3"/>`
     if (f === 'digital') {

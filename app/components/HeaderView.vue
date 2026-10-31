@@ -1,8 +1,6 @@
-<!-- app/components/HeaderView.vue -->
 <script setup lang="ts">
 const cartCount = useState('cart-count', () => 0)
 
-// Las categorías se leen de los documentos JSON para construir el menú
 const { data: categorias } = await useAsyncData('menu-categorias', () => {
   return queryCollection('categorias').order('orden', 'ASC').select('slug', 'nombre').all()
 })

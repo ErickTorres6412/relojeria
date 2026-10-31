@@ -1,11 +1,9 @@
-// app/plugins/snipcart.client.ts
 const SNIPCART_CDN = 'https://cdn.snipcart.com/themes/v3.0/default'
 
 export default defineNuxtPlugin((nuxtApp) => {
   const { snipcartApiKey } = useRuntimeConfig().public
   const cartCount = useState('cart-count', () => 0)
 
-  // Configuración que Snipcart lee al cargarse
   const w = window as any
   w.SnipcartSettings = {
     publicApiKey: snipcartApiKey,
@@ -14,7 +12,6 @@ export default defineNuxtPlugin((nuxtApp) => {
     language: 'es'
   }
 
-  // Cuando Snipcart está listo, mantener el contador sincronizado con el carrito
   document.addEventListener('snipcart.ready', () => {
     w.Snipcart.api.session.setLanguage('es')
     const update = () => {
@@ -24,7 +21,6 @@ export default defineNuxtPlugin((nuxtApp) => {
     w.Snipcart.store.subscribe(update)
   })
 
-  // Se inyecta después de montar la aplicación para no alterar la hidratación
   nuxtApp.hook('app:mounted', () => {
     const container = document.createElement('div')
     container.id = 'snipcart'

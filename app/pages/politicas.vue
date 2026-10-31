@@ -1,4 +1,3 @@
-<!-- app/pages/politicas.vue -->
 <script setup lang="ts">
 useHead({ title: 'Envíos, devoluciones y privacidad' })
 </script>

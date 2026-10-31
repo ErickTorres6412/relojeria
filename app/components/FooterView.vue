@@ -1,4 +1,3 @@
-<!-- app/components/FooterView.vue -->
 <template>
   <footer class="pie">
     <div class="container">

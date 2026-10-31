@@ -1,4 +1,3 @@
-<!-- app/pages/categorias/index.vue -->
 <script setup lang="ts">
 useHead({ title: 'Categorías' })
 
@@ -6,7 +5,6 @@ const { data: categorias } = await useAsyncData('categorias-lista', () => {
   return queryCollection('categorias').order('orden', 'ASC').all()
 })
 
-// Cantidad de relojes por categoría
 const { data: relojes } = await useAsyncData('categorias-conteo', () => {
   return queryCollection('relojes').select('categoria').all()
 })

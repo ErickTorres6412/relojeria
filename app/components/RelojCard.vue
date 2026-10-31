@@ -1,4 +1,3 @@
-<!-- app/components/RelojCard.vue -->
 <script setup lang="ts">
 defineProps<{
   reloj: {

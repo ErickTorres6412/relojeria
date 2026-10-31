@@ -1,9 +1,7 @@
-<!-- app/components/AppSearchInput.vue -->
 <script setup lang="ts">
 const route = useRoute()
 const searchQuery = ref(typeof route.query.q === 'string' ? route.query.q : '')
 
-// Mantener el campo sincronizado si la búsqueda cambia desde otra parte
 watch(() => route.query.q, (q) => {
   searchQuery.value = typeof q === 'string' ? q : ''
 })

@@ -1,4 +1,3 @@
-<!-- app/error.vue -->
 <script setup lang="ts">
 const props = defineProps<{ error: { statusCode: number, statusMessage?: string } }>()
 useHead({ title: props.error.statusCode === 404 ? 'Página no encontrada' : 'Error' })

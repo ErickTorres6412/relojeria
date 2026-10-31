@@ -1,6 +1,3 @@
-<!-- app/pages/categorias/[categoria]/[[pagina]].vue -->
-<!-- Listado paginado de los relojes de una categoría:
-     /categorias/buceo -> página 1, /categorias/buceo/2 -> página 2, ... -->
 <script setup lang="ts">
 definePageMeta({ key: route => route.fullPath })
 
@@ -16,7 +13,6 @@ if (!categoria.value) {
   throw createError({ statusCode: 404, statusMessage: 'Categoría no encontrada', fatal: true })
 }
 
-// Total de relojes de la categoría para calcular el número de páginas
 const { data: total } = await useAsyncData(`categoria-${idCategoria}-total`, () => {
   return queryCollection('relojes').where('categoria', '=', idCategoria).count()
 })
@@ -27,7 +23,6 @@ if (!Number.isInteger(pagina) || pagina < 1 || pagina > totalPaginas) {
   throw createError({ statusCode: 404, statusMessage: 'Página no encontrada', fatal: true })
 }
 
-// Sólo se consultan los relojes de la página actual (skip + limit)
 const { data: relojes } = await useAsyncData(`categoria-${idCategoria}-pagina-${pagina}`, () => {
   return queryCollection('relojes')
     .where('categoria', '=', idCategoria)

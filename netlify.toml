@@ -1,4 +1,3 @@
-# Publicación en Netlify como sitio estático (pre-renderizado)
 [build]
   command = "npm run generate"
   publish = "dist"

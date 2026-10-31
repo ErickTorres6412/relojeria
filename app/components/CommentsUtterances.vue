@@ -1,4 +1,3 @@
-<!-- app/components/CommentsUtterances.vue -->
 <script setup lang="ts">
 const props = withDefaults(defineProps<{
   repo: string

@@ -1,13 +1,9 @@
-// nuxt.config.ts
 export default defineNuxtConfig({
   compatibilityDate: '2026-01-01',
   modules: ['@nuxt/content'],
   css: ['~/assets/css/main.css'],
   runtimeConfig: {
     public: {
-      // Se toman de las variables de entorno al generar el sitio:
-      // NUXT_PUBLIC_SNIPCART_API_KEY, NUXT_PUBLIC_SITE_URL y NUXT_PUBLIC_UTTERANCES_REPO
-      // (URL es la dirección pública que Netlify define automáticamente en cada build)
       snipcartApiKey: process.env.NUXT_PUBLIC_SNIPCART_API_KEY || 'CLAVE_PUBLICA_DE_PRUEBA',
       siteUrl: process.env.NUXT_PUBLIC_SITE_URL || process.env.URL || 'http://localhost:3000',
       utterancesRepo: process.env.NUXT_PUBLIC_UTTERANCES_REPO || 'ErickTorres6412/relojeria'
@@ -32,8 +28,6 @@ export default defineNuxtConfig({
   },
   nitro: {
     prerender: {
-      // Se recorren los enlaces del sitio para generar todas las páginas
-      // (categorías, páginas de la paginación y detalle de cada reloj)
       crawlLinks: true,
       routes: ['/', '/buscar', '/politicas']
     }

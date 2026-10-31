@@ -1,0 +1,27 @@
+{
+  "slug": "casio-f91w",
+  "nombre": "F-91W",
+  "descripcion": "Uno de los relojes más vendidos de la historia, fabricado desde 1989. Ligero, preciso y prácticamente indestructible.",
+  "categoria": "clasicos",
+  "imagen": "/images/relojes/casio-f91w.svg",
+  "precio": 19,
+  "marca": "Casio",
+  "modelo": "F-91W-1",
+  "genero": "Unisex",
+  "movimiento": "Cuarzo digital",
+  "materialCaja": "Resina",
+  "correa": "Resina",
+  "cristal": "Acrílico",
+  "diametro": 35.2,
+  "resistenciaAgua": 0,
+  "garantia": 1,
+  "caracteristicas": [
+    "Ultraligero (21 g)",
+    "Cronómetro",
+    "Alarma",
+    "Luz",
+    "Batería de 7 años"
+  ],
+  "stock": 60,
+  "destacado": false
+}

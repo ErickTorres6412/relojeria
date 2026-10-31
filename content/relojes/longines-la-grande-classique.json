@@ -1,0 +1,27 @@
+{
+  "slug": "longines-la-grande-classique",
+  "nombre": "La Grande Classique",
+  "descripcion": "Un emblema de la elegancia de Longines desde 1992. Su caja extraplana con detalles dorados y la esfera blanca con números romanos lo convierten en una joya para cualquier ocasión.",
+  "categoria": "vestir",
+  "imagen": "/images/relojes/longines-la-grande-classique.svg",
+  "precio": 1350,
+  "marca": "Longines",
+  "modelo": "L4.209.4.11.2",
+  "genero": "Mujer",
+  "movimiento": "Cuarzo suizo",
+  "materialCaja": "Acero con baño de oro",
+  "correa": "Cuero",
+  "cristal": "Zafiro",
+  "diametro": 29,
+  "resistenciaAgua": 30,
+  "garantia": 2,
+  "caracteristicas": [
+    "Swiss Made",
+    "Caja de 4,7 mm",
+    "Números romanos",
+    "Cristal de zafiro",
+    "Correa de cocodrilo"
+  ],
+  "stock": 4,
+  "destacado": true
+}

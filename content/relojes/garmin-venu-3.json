@@ -1,0 +1,27 @@
+{
+  "slug": "garmin-venu-3",
+  "nombre": "Venu 3",
+  "descripcion": "Combina la autonomía de Garmin con funciones de reloj inteligente. Su batería dura hasta dos semanas y permite atender llamadas directamente desde la muñeca.",
+  "categoria": "smartwatches",
+  "imagen": "/images/relojes/garmin-venu-3.svg",
+  "precio": 449,
+  "marca": "Garmin",
+  "modelo": "010-02784-01",
+  "genero": "Unisex",
+  "movimiento": "Digital con GPS",
+  "materialCaja": "Polímero y acero",
+  "correa": "Silicona",
+  "cristal": "Gorilla Glass 3",
+  "diametro": 45,
+  "resistenciaAgua": 50,
+  "garantia": 1,
+  "caracteristicas": [
+    "Hasta 14 días de batería",
+    "Llamadas por Bluetooth",
+    "Body Battery",
+    "Más de 30 deportes",
+    "Entrenador de siestas"
+  ],
+  "stock": 9,
+  "destacado": false
+}

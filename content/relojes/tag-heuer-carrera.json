@@ -1,0 +1,27 @@
+{
+  "slug": "tag-heuer-carrera",
+  "nombre": "Carrera Chronograph",
+  "descripcion": "Nacido en las pistas de carreras de los años sesenta. Movimiento de manufactura Heuer 02 con 80 horas de reserva y una esfera de cronógrafo deportiva.",
+  "categoria": "lujo",
+  "imagen": "/images/relojes/tag-heuer-carrera.svg",
+  "precio": 6300,
+  "marca": "TAG Heuer",
+  "modelo": "CBN2A1B.BA0643",
+  "genero": "Hombre",
+  "movimiento": "Automático",
+  "materialCaja": "Acero inoxidable",
+  "correa": "Acero inoxidable",
+  "cristal": "Zafiro",
+  "diametro": 44,
+  "resistenciaAgua": 100,
+  "garantia": 2,
+  "caracteristicas": [
+    "Calibre Heuer 02",
+    "Reserva de 80 horas",
+    "Cronógrafo",
+    "Fondo de zafiro",
+    "Inspirado en el automovilismo"
+  ],
+  "stock": 3,
+  "destacado": false
+}

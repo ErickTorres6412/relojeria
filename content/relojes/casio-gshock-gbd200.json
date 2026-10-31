@@ -1,0 +1,27 @@
+{
+  "slug": "casio-gshock-gbd200",
+  "nombre": "G-Shock G-Squad GBD-200",
+  "descripcion": "Reloj de entrenamiento que se conecta con la aplicación G-Shock Move para registrar distancia, ritmo y calorías. Mantiene la resistencia legendaria de la línea G-Shock.",
+  "categoria": "deportivos",
+  "imagen": "/images/relojes/casio-gshock-gbd200.svg",
+  "precio": 149,
+  "marca": "Casio",
+  "modelo": "GBD-200-1",
+  "genero": "Unisex",
+  "movimiento": "Cuarzo digital",
+  "materialCaja": "Resina",
+  "correa": "Resina",
+  "cristal": "Mineral",
+  "diametro": 46,
+  "resistenciaAgua": 200,
+  "garantia": 2,
+  "caracteristicas": [
+    "Conexión Bluetooth",
+    "Podómetro",
+    "Registro de entrenamientos",
+    "Notificaciones",
+    "Resistente a golpes"
+  ],
+  "stock": 18,
+  "destacado": false
+}

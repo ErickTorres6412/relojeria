@@ -1,0 +1,27 @@
+{
+  "slug": "apple-watch-series-10",
+  "nombre": "Apple Watch Series 10",
+  "descripcion": "El Apple Watch más delgado hasta la fecha, con la pantalla más grande y brillante de la serie. Monitorea el sueño, el ritmo cardíaco y la oxigenación, y permite pagar con Apple Pay.",
+  "categoria": "smartwatches",
+  "imagen": "/images/relojes/apple-watch-series-10.svg",
+  "precio": 429,
+  "marca": "Apple",
+  "modelo": "MWWE3",
+  "genero": "Unisex",
+  "movimiento": "Digital (watchOS)",
+  "materialCaja": "Aluminio",
+  "correa": "Silicona",
+  "cristal": "Ion-X",
+  "diametro": 46,
+  "resistenciaAgua": 50,
+  "garantia": 1,
+  "caracteristicas": [
+    "Pantalla OLED siempre activa",
+    "Electrocardiograma",
+    "Detección de caídas",
+    "Sensor de temperatura",
+    "Apple Pay"
+  ],
+  "stock": 20,
+  "destacado": true
+}

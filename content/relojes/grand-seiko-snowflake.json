@@ -1,0 +1,27 @@
+{
+  "slug": "grand-seiko-snowflake",
+  "nombre": "Grand Seiko \"Snowflake\"",
+  "descripcion": "Su esfera blanca texturizada recuerda la nieve de los Alpes japoneses. El movimiento Spring Drive mueve el segundero con un barrido perfectamente continuo.",
+  "categoria": "lujo",
+  "imagen": "/images/relojes/grand-seiko-snowflake.svg",
+  "precio": 6200,
+  "marca": "Grand Seiko",
+  "modelo": "SBGA211",
+  "genero": "Hombre",
+  "movimiento": "Spring Drive",
+  "materialCaja": "Titanio de alta intensidad",
+  "correa": "Titanio",
+  "cristal": "Zafiro",
+  "diametro": 41,
+  "resistenciaAgua": 100,
+  "garantia": 5,
+  "caracteristicas": [
+    "Movimiento Spring Drive",
+    "Segundero de barrido continuo",
+    "Esfera texturizada",
+    "Indicador de reserva",
+    "Titanio ligero"
+  ],
+  "stock": 2,
+  "destacado": true
+}

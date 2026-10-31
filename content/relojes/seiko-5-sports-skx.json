@@ -1,0 +1,27 @@
+{
+  "slug": "seiko-5-sports-skx",
+  "nombre": "5 Sports SKX Style",
+  "descripcion": "La reinterpretación moderna del icónico SKX. Movimiento automático con día y fecha, fondo de cristal para ver el rotor y un diseño deportivo para el uso diario.",
+  "categoria": "deportivos",
+  "imagen": "/images/relojes/seiko-5-sports-skx.svg",
+  "precio": 295,
+  "marca": "Seiko",
+  "modelo": "SRPD55",
+  "genero": "Hombre",
+  "movimiento": "Automático",
+  "materialCaja": "Acero inoxidable",
+  "correa": "Acero inoxidable",
+  "cristal": "Hardlex",
+  "diametro": 42.5,
+  "resistenciaAgua": 100,
+  "garantia": 2,
+  "caracteristicas": [
+    "Calibre 4R36",
+    "Reserva de 41 horas",
+    "Fondo transparente",
+    "Día y fecha",
+    "Bisel giratorio"
+  ],
+  "stock": 14,
+  "destacado": false
+}

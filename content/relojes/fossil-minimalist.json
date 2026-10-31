@@ -1,0 +1,27 @@
+{
+  "slug": "fossil-minimalist",
+  "nombre": "The Minimalist Slim",
+  "descripcion": "Diseño escandinavo de líneas limpias con esfera azul y correa de cuero coñac. Su sistema de cambio rápido permite intercambiar la correa sin herramientas.",
+  "categoria": "vestir",
+  "imagen": "/images/relojes/fossil-minimalist.svg",
+  "precio": 119,
+  "marca": "Fossil",
+  "modelo": "FS5304",
+  "genero": "Unisex",
+  "movimiento": "Cuarzo",
+  "materialCaja": "Acero inoxidable",
+  "correa": "Cuero",
+  "cristal": "Mineral",
+  "diametro": 44,
+  "resistenciaAgua": 50,
+  "garantia": 2,
+  "caracteristicas": [
+    "Caja ultradelgada",
+    "Esfera azul",
+    "Correa intercambiable",
+    "Tres agujas",
+    "Diseño minimalista"
+  ],
+  "stock": 28,
+  "destacado": false
+}

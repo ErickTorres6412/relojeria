@@ -1,0 +1,27 @@
+{
+  "slug": "tissot-everytime",
+  "nombre": "Everytime Medium",
+  "descripcion": "Minimalismo suizo en una caja de apenas 7 mm de grosor. Esfera blanca con índices aplicados y correa de cuero marrón que combina con traje o con ropa casual.",
+  "categoria": "vestir",
+  "imagen": "/images/relojes/tissot-everytime.svg",
+  "precio": 295,
+  "marca": "Tissot",
+  "modelo": "T143.410.16.011.00",
+  "genero": "Hombre",
+  "movimiento": "Cuarzo suizo",
+  "materialCaja": "Acero inoxidable",
+  "correa": "Cuero",
+  "cristal": "Zafiro",
+  "diametro": 40,
+  "resistenciaAgua": 30,
+  "garantia": 2,
+  "caracteristicas": [
+    "Swiss Made",
+    "Caja de 7 mm",
+    "Cristal de zafiro",
+    "Correa de piel genuina",
+    "Fondo atornillado"
+  ],
+  "stock": 15,
+  "destacado": true
+}

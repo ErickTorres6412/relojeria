@@ -1,0 +1,27 @@
+{
+  "slug": "amazfit-gtr-4",
+  "nombre": "GTR 4",
+  "descripcion": "Excelente relación precio-funciones: GPS de doble banda, asistente Alexa y hasta dos semanas de batería en un diseño redondo y elegante.",
+  "categoria": "smartwatches",
+  "imagen": "/images/relojes/amazfit-gtr-4.svg",
+  "precio": 169,
+  "marca": "Amazfit",
+  "modelo": "A2166",
+  "genero": "Unisex",
+  "movimiento": "Digital (Zepp OS)",
+  "materialCaja": "Aleación de aluminio",
+  "correa": "Cuero",
+  "cristal": "Cristal templado",
+  "diametro": 46,
+  "resistenciaAgua": 50,
+  "garantia": 1,
+  "caracteristicas": [
+    "GPS de doble banda",
+    "Alexa integrada",
+    "14 días de batería",
+    "Llamadas Bluetooth",
+    "150 modos deportivos"
+  ],
+  "stock": 22,
+  "destacado": false
+}

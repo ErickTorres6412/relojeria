@@ -1,0 +1,27 @@
+{
+  "slug": "orient-kamasu",
+  "nombre": "Mako III \"Kamasu\"",
+  "descripcion": "Un diver automático con cristal de zafiro a un precio accesible. Su esfera con efecto rayos de sol cambia de tono con la luz y el brazalete macizo es muy cómodo.",
+  "categoria": "buceo",
+  "imagen": "/images/relojes/orient-kamasu.svg",
+  "precio": 299,
+  "marca": "Orient",
+  "modelo": "RA-AA0003R",
+  "genero": "Hombre",
+  "movimiento": "Automático",
+  "materialCaja": "Acero inoxidable",
+  "correa": "Acero inoxidable",
+  "cristal": "Zafiro",
+  "diametro": 41.8,
+  "resistenciaAgua": 200,
+  "garantia": 1,
+  "caracteristicas": [
+    "Cristal de zafiro",
+    "Calibre F6922",
+    "Carga manual",
+    "Bisel de 120 clics",
+    "Esfera rojo vino"
+  ],
+  "stock": 10,
+  "destacado": false
+}

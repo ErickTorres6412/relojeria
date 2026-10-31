@@ -1,0 +1,27 @@
+{
+  "slug": "seiko-prospex-turtle",
+  "nombre": "Prospex \"Turtle\"",
+  "descripcion": "El diver de caja cojín que los buceadores apodaron \"tortuga\". Certificado ISO 6425 para buceo, con bisel unidireccional de 120 clics y agujas con gran luminiscencia LumiBrite.",
+  "categoria": "buceo",
+  "imagen": "/images/relojes/seiko-prospex-turtle.svg",
+  "precio": 425,
+  "marca": "Seiko",
+  "modelo": "SRPE93",
+  "genero": "Hombre",
+  "movimiento": "Automático",
+  "materialCaja": "Acero inoxidable",
+  "correa": "Silicona",
+  "cristal": "Hardlex",
+  "diametro": 45,
+  "resistenciaAgua": 200,
+  "garantia": 2,
+  "caracteristicas": [
+    "ISO 6425",
+    "Bisel unidireccional",
+    "LumiBrite",
+    "Calibre 4R36",
+    "Corona a las 4"
+  ],
+  "stock": 12,
+  "destacado": true
+}

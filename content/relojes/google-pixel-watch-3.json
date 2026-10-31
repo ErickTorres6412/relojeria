@@ -1,0 +1,27 @@
+{
+  "slug": "google-pixel-watch-3",
+  "nombre": "Pixel Watch 3",
+  "descripcion": "Diseño de cúpula sin biseles visibles con la experiencia Fitbit integrada. Ideal para usuarios de Android que buscan seguimiento de salud y asistente de Google en la muñeca.",
+  "categoria": "smartwatches",
+  "imagen": "/images/relojes/google-pixel-watch-3.svg",
+  "precio": 349,
+  "marca": "Google",
+  "modelo": "GA05757",
+  "genero": "Unisex",
+  "movimiento": "Digital (Wear OS)",
+  "materialCaja": "Aluminio reciclado",
+  "correa": "Silicona",
+  "cristal": "Gorilla Glass 5",
+  "diametro": 41,
+  "resistenciaAgua": 50,
+  "garantia": 1,
+  "caracteristicas": [
+    "Integración con Fitbit",
+    "Pantalla Actua",
+    "Detección de pérdida de pulso",
+    "Google Wallet",
+    "Mapas sin conexión"
+  ],
+  "stock": 11,
+  "destacado": false
+}

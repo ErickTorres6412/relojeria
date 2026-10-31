@@ -1,0 +1,27 @@
+{
+  "slug": "casio-a168",
+  "nombre": "Vintage A168",
+  "descripcion": "El icónico digital retro de los años 80 que nunca pasa de moda. Brazalete de acero, luz verde y funciones básicas a un precio imbatible.",
+  "categoria": "clasicos",
+  "imagen": "/images/relojes/casio-a168.svg",
+  "precio": 29,
+  "marca": "Casio",
+  "modelo": "A168WA-1",
+  "genero": "Unisex",
+  "movimiento": "Cuarzo digital",
+  "materialCaja": "Resina con acabado metálico",
+  "correa": "Acero inoxidable",
+  "cristal": "Acrílico",
+  "diametro": 36.3,
+  "resistenciaAgua": 30,
+  "garantia": 1,
+  "caracteristicas": [
+    "Luz electroluminiscente",
+    "Cronómetro",
+    "Alarma diaria",
+    "Calendario automático",
+    "Batería de 7 años"
+  ],
+  "stock": 50,
+  "destacado": true
+}

@@ -1,0 +1,27 @@
+{
+  "slug": "invicta-pro-diver",
+  "nombre": "Pro Diver 8926OB",
+  "descripcion": "El diver automático de entrada más popular. Movimiento japonés confiable, bisel negro giratorio y un diseño clásico de buceo por un precio muy accesible.",
+  "categoria": "buceo",
+  "imagen": "/images/relojes/invicta-pro-diver.svg",
+  "precio": 89,
+  "marca": "Invicta",
+  "modelo": "8926OB",
+  "genero": "Hombre",
+  "movimiento": "Automático",
+  "materialCaja": "Acero inoxidable",
+  "correa": "Acero inoxidable",
+  "cristal": "Mineral reforzado",
+  "diametro": 40,
+  "resistenciaAgua": 200,
+  "garantia": 3,
+  "caracteristicas": [
+    "Movimiento NH35A",
+    "Bisel unidireccional",
+    "Índices luminosos",
+    "Fecha",
+    "Reserva de 40 horas"
+  ],
+  "stock": 35,
+  "destacado": false
+}

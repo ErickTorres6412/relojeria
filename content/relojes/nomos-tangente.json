@@ -1,0 +1,27 @@
+{
+  "slug": "nomos-tangente",
+  "nombre": "Tangente 38",
+  "descripcion": "Diseño Bauhaus puro de Glashütte, Alemania. Caja delgada, esfera blanca con números arábigos finos y un movimiento de manufactura visible por el fondo.",
+  "categoria": "lujo",
+  "imagen": "/images/relojes/nomos-tangente.svg",
+  "precio": 2380,
+  "marca": "NOMOS Glashütte",
+  "modelo": "164",
+  "genero": "Unisex",
+  "movimiento": "Mecánico de cuerda manual",
+  "materialCaja": "Acero inoxidable",
+  "correa": "Cuero de caballo",
+  "cristal": "Zafiro",
+  "diametro": 37.5,
+  "resistenciaAgua": 30,
+  "garantia": 2,
+  "caracteristicas": [
+    "Calibre Alpha de manufactura",
+    "Diseño Bauhaus",
+    "Segundero pequeño",
+    "Fondo de zafiro",
+    "Hecho en Alemania"
+  ],
+  "stock": 5,
+  "destacado": false
+}

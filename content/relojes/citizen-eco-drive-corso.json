@@ -1,0 +1,27 @@
+{
+  "slug": "citizen-eco-drive-corso",
+  "nombre": "Corso Eco-Drive",
+  "descripcion": "Reloj de vestir solar con brazalete de acero de eslabones finos. La esfera negra con índices de bastón le da un aire sobrio para el día a día en la oficina.",
+  "categoria": "vestir",
+  "imagen": "/images/relojes/citizen-eco-drive-corso.svg",
+  "precio": 225,
+  "marca": "Citizen",
+  "modelo": "BM7100-59E",
+  "genero": "Hombre",
+  "movimiento": "Eco-Drive (solar)",
+  "materialCaja": "Acero inoxidable",
+  "correa": "Acero inoxidable",
+  "cristal": "Mineral",
+  "diametro": 41,
+  "resistenciaAgua": 100,
+  "garantia": 5,
+  "caracteristicas": [
+    "Carga solar",
+    "Indicador de reserva",
+    "Fecha",
+    "Brazalete con cierre desplegable",
+    "Esfera negra"
+  ],
+  "stock": 16,
+  "destacado": false
+}

@@ -1,0 +1,27 @@
+{
+  "slug": "omega-speedmaster-moonwatch",
+  "nombre": "Speedmaster Moonwatch Professional",
+  "descripcion": "El reloj que acompañó a los astronautas en la Luna en 1969. Cronógrafo de cuerda manual con certificación Master Chronometer y esfera negra de gran contraste.",
+  "categoria": "lujo",
+  "imagen": "/images/relojes/omega-speedmaster-moonwatch.svg",
+  "precio": 7600,
+  "marca": "Omega",
+  "modelo": "310.30.42.50.01.001",
+  "genero": "Hombre",
+  "movimiento": "Mecánico de cuerda manual",
+  "materialCaja": "Acero inoxidable",
+  "correa": "Acero inoxidable",
+  "cristal": "Hesalita",
+  "diametro": 42,
+  "resistenciaAgua": 50,
+  "garantia": 5,
+  "caracteristicas": [
+    "Calibre 3861",
+    "Cronógrafo",
+    "Certificación Master Chronometer",
+    "Escala taquimétrica",
+    "Usado en la Luna"
+  ],
+  "stock": 3,
+  "destacado": true
+}

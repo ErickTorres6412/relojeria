@@ -1,0 +1,27 @@
+{
+  "slug": "samsung-galaxy-watch7",
+  "nombre": "Galaxy Watch7",
+  "descripcion": "Smartwatch con Wear OS y análisis de composición corporal. Su GPS de doble frecuencia mejora la precisión al correr en la ciudad y se integra con los teléfonos Galaxy.",
+  "categoria": "smartwatches",
+  "imagen": "/images/relojes/samsung-galaxy-watch7.svg",
+  "precio": 329,
+  "marca": "Samsung",
+  "modelo": "SM-L310",
+  "genero": "Unisex",
+  "movimiento": "Digital (Wear OS)",
+  "materialCaja": "Aluminio",
+  "correa": "Silicona",
+  "cristal": "Zafiro",
+  "diametro": 44,
+  "resistenciaAgua": 50,
+  "garantia": 1,
+  "caracteristicas": [
+    "Análisis de composición corporal",
+    "GPS de doble frecuencia",
+    "Wear OS",
+    "Monitoreo del sueño",
+    "Carga rápida"
+  ],
+  "stock": 18,
+  "destacado": false
+}

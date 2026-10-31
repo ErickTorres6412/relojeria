@@ -1,0 +1,24 @@
+# Nuxt
+.output
+.data
+.nuxt
+.nitro
+.cache
+dist
+
+# Dependencias
+node_modules
+
+# Logs
+logs
+*.log
+
+# Varios
+.DS_Store
+.fleet
+.idea
+
+# Variables de entorno locales
+.env
+.env.*
+!.env.example

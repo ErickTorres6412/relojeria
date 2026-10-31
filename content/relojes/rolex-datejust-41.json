@@ -1,0 +1,27 @@
+{
+  "slug": "rolex-datejust-41",
+  "nombre": "Datejust 41",
+  "descripcion": "El arquetipo del reloj clásico. Su bisel estriado de oro blanco, la ventanilla de fecha con lupa Cyclops y el brazalete Jubilee lo hacen reconocible al instante.",
+  "categoria": "lujo",
+  "imagen": "/images/relojes/rolex-datejust-41.svg",
+  "precio": 10850,
+  "marca": "Rolex",
+  "modelo": "126334",
+  "genero": "Hombre",
+  "movimiento": "Automático",
+  "materialCaja": "Acero Oystersteel y oro blanco",
+  "correa": "Brazalete Jubilee",
+  "cristal": "Zafiro",
+  "diametro": 41,
+  "resistenciaAgua": 100,
+  "garantia": 5,
+  "caracteristicas": [
+    "Calibre 3235",
+    "Cronómetro superlativo",
+    "Bisel estriado de oro",
+    "Lupa Cyclops",
+    "Reserva de 70 horas"
+  ],
+  "stock": 2,
+  "destacado": true
+}

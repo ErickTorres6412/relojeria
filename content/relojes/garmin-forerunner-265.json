@@ -1,0 +1,27 @@
+{
+  "slug": "garmin-forerunner-265",
+  "nombre": "Forerunner 265",
+  "descripcion": "Reloj para corredores con GPS multibanda y pantalla AMOLED. Calcula la preparación para el entrenamiento, sugiere sesiones diarias y mide la variabilidad de la frecuencia cardíaca durante la noche.",
+  "categoria": "deportivos",
+  "imagen": "/images/relojes/garmin-forerunner-265.svg",
+  "precio": 449,
+  "marca": "Garmin",
+  "modelo": "010-02810-00",
+  "genero": "Unisex",
+  "movimiento": "Digital con GPS",
+  "materialCaja": "Polímero reforzado",
+  "correa": "Silicona",
+  "cristal": "Gorilla Glass 3",
+  "diametro": 46.1,
+  "resistenciaAgua": 50,
+  "garantia": 1,
+  "caracteristicas": [
+    "GPS multibanda",
+    "Pantalla AMOLED",
+    "Estado del entrenamiento",
+    "Hasta 13 días de batería",
+    "Pulsómetro en muñeca"
+  ],
+  "stock": 10,
+  "destacado": true
+}

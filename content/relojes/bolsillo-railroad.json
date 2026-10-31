@@ -1,0 +1,27 @@
+{
+  "slug": "bolsillo-railroad",
+  "nombre": "Reloj de bolsillo Railroad",
+  "descripcion": "Reloj de bolsillo inspirado en los que usaban los conductores de ferrocarril. Tapa abatible, movimiento mecánico visible y cadena para el chaleco.",
+  "categoria": "clasicos",
+  "imagen": "/images/relojes/bolsillo-railroad.svg",
+  "precio": 139,
+  "marca": "Charles-Hubert Paris",
+  "modelo": "3974",
+  "genero": "Unisex",
+  "movimiento": "Mecánico de cuerda manual",
+  "materialCaja": "Latón con baño de oro",
+  "correa": "Cadena de latón",
+  "cristal": "Mineral",
+  "diametro": 50,
+  "resistenciaAgua": 0,
+  "garantia": 1,
+  "caracteristicas": [
+    "Tapa de cazador",
+    "Segundero pequeño",
+    "Cadena incluida",
+    "Esfera con números arábigos",
+    "Estuche de regalo"
+  ],
+  "stock": 6,
+  "destacado": false
+}

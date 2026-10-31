@@ -1,0 +1,27 @@
+{
+  "slug": "hamilton-jazzmaster-viewmatic",
+  "nombre": "Jazzmaster Viewmatic",
+  "descripcion": "Elegancia americana con corazón suizo. El calibre H-10 ofrece 80 horas de reserva de marcha, suficiente para dejar el reloj el fin de semana y que siga funcionando el lunes.",
+  "categoria": "vestir",
+  "imagen": "/images/relojes/hamilton-jazzmaster-viewmatic.svg",
+  "precio": 795,
+  "marca": "Hamilton",
+  "modelo": "H32515555",
+  "genero": "Hombre",
+  "movimiento": "Automático",
+  "materialCaja": "Acero inoxidable",
+  "correa": "Cuero",
+  "cristal": "Zafiro",
+  "diametro": 40,
+  "resistenciaAgua": 50,
+  "garantia": 2,
+  "caracteristicas": [
+    "Calibre H-10",
+    "Reserva de 80 horas",
+    "Swiss Made",
+    "Fondo de zafiro",
+    "Fecha"
+  ],
+  "stock": 6,
+  "destacado": false
+}

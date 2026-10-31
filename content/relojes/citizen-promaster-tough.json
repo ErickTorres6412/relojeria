@@ -1,0 +1,27 @@
+{
+  "slug": "citizen-promaster-tough",
+  "nombre": "Promaster Tough Eco-Drive",
+  "descripcion": "Construido en una sola pieza de acero para soportar trabajos duros. Su movimiento Eco-Drive se recarga con cualquier fuente de luz, por lo que nunca necesita cambio de batería.",
+  "categoria": "deportivos",
+  "imagen": "/images/relojes/citizen-promaster-tough.svg",
+  "precio": 245,
+  "marca": "Citizen",
+  "modelo": "BN0217-02E",
+  "genero": "Hombre",
+  "movimiento": "Eco-Drive (solar)",
+  "materialCaja": "Acero inoxidable",
+  "correa": "Nylon",
+  "cristal": "Mineral",
+  "diametro": 42,
+  "resistenciaAgua": 200,
+  "garantia": 5,
+  "caracteristicas": [
+    "Carga solar",
+    "Reserva de 6 meses",
+    "Caja monobloque",
+    "Bisel giratorio",
+    "Fecha"
+  ],
+  "stock": 12,
+  "destacado": false
+}

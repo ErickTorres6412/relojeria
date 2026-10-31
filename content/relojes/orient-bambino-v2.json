@@ -1,0 +1,27 @@
+{
+  "slug": "orient-bambino-v2",
+  "nombre": "Bambino Versión 2",
+  "descripcion": "Uno de los relojes automáticos de vestir con mejor relación calidad-precio. Su cristal abombado y la esfera crema con números romanos evocan los relojes de los años cincuenta.",
+  "categoria": "vestir",
+  "imagen": "/images/relojes/orient-bambino-v2.svg",
+  "precio": 185,
+  "marca": "Orient",
+  "modelo": "FAC00009N0",
+  "genero": "Hombre",
+  "movimiento": "Automático",
+  "materialCaja": "Acero inoxidable",
+  "correa": "Cuero",
+  "cristal": "Mineral abombado",
+  "diametro": 40.5,
+  "resistenciaAgua": 30,
+  "garantia": 1,
+  "caracteristicas": [
+    "Calibre F6724",
+    "Cristal tipo domo",
+    "Esfera cóncava",
+    "Fondo transparente",
+    "Reserva de 40 horas"
+  ],
+  "stock": 20,
+  "destacado": false
+}

@@ -1,0 +1,27 @@
+{
+  "slug": "tag-heuer-aquaracer",
+  "nombre": "Aquaracer Professional 300",
+  "descripcion": "Robustez y elegancia suiza para el mar. Bisel de cerámica de 12 lados, esfera azul con líneas horizontales y 300 metros de resistencia al agua.",
+  "categoria": "buceo",
+  "imagen": "/images/relojes/tag-heuer-aquaracer.svg",
+  "precio": 3150,
+  "marca": "TAG Heuer",
+  "modelo": "WBP201B.BA0632",
+  "genero": "Hombre",
+  "movimiento": "Automático",
+  "materialCaja": "Acero inoxidable",
+  "correa": "Acero inoxidable",
+  "cristal": "Zafiro",
+  "diametro": 43,
+  "resistenciaAgua": 300,
+  "garantia": 2,
+  "caracteristicas": [
+    "Swiss Made",
+    "Calibre 5",
+    "Bisel cerámico",
+    "Esfera horizontal grabada",
+    "Cierre con extensión de buceo"
+  ],
+  "stock": 3,
+  "destacado": true
+}

@@ -1,0 +1,27 @@
+{
+  "slug": "casio-duro-mdv106",
+  "nombre": "Duro MDV-106",
+  "descripcion": "El \"Marlin\" de Casio, un favorito para nadar y hacer snorkel. Ofrece 200 metros de resistencia, bisel giratorio y una batería que dura hasta diez años.",
+  "categoria": "buceo",
+  "imagen": "/images/relojes/casio-duro-mdv106.svg",
+  "precio": 69,
+  "marca": "Casio",
+  "modelo": "MDV-106-1A",
+  "genero": "Hombre",
+  "movimiento": "Cuarzo",
+  "materialCaja": "Acero inoxidable",
+  "correa": "Resina",
+  "cristal": "Mineral",
+  "diametro": 44,
+  "resistenciaAgua": 200,
+  "garantia": 2,
+  "caracteristicas": [
+    "Bisel giratorio",
+    "Fecha",
+    "Agujas luminosas",
+    "Batería de 10 años",
+    "Ligero"
+  ],
+  "stock": 40,
+  "destacado": false
+}

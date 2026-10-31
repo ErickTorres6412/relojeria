@@ -1,0 +1,27 @@
+{
+  "slug": "casio-gshock-ga2100",
+  "nombre": "G-Shock GA-2100 \"CasiOak\"",
+  "descripcion": "El G-Shock más delgado de su generación gracias a su estructura con núcleo de carbono. Su caja octogonal combina agujas analógicas con una pantalla digital para el cronómetro, las alarmas y la hora mundial.",
+  "categoria": "deportivos",
+  "imagen": "/images/relojes/casio-gshock-ga2100.svg",
+  "precio": 99,
+  "marca": "Casio",
+  "modelo": "GA-2100-1A1",
+  "genero": "Hombre",
+  "movimiento": "Cuarzo",
+  "materialCaja": "Resina con núcleo de carbono",
+  "correa": "Resina",
+  "cristal": "Mineral",
+  "diametro": 45.4,
+  "resistenciaAgua": 200,
+  "garantia": 2,
+  "caracteristicas": [
+    "Resistente a golpes",
+    "Hora mundial",
+    "Cronómetro 1/100 s",
+    "Luz LED doble",
+    "Batería de 3 años"
+  ],
+  "stock": 25,
+  "destacado": true
+}

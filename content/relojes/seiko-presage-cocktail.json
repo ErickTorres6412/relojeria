@@ -1,0 +1,27 @@
+{
+  "slug": "seiko-presage-cocktail",
+  "nombre": "Presage \"Cocktail Time\"",
+  "descripcion": "Inspirado en los cócteles de los bares de Tokio. Su esfera azul con textura de rayos de sol tiene una profundidad que cambia con la luz.",
+  "categoria": "clasicos",
+  "imagen": "/images/relojes/seiko-presage-cocktail.svg",
+  "precio": 425,
+  "marca": "Seiko",
+  "modelo": "SRPB43",
+  "genero": "Hombre",
+  "movimiento": "Automático",
+  "materialCaja": "Acero inoxidable",
+  "correa": "Cuero",
+  "cristal": "Hardlex abombado",
+  "diametro": 40.5,
+  "resistenciaAgua": 50,
+  "garantia": 2,
+  "caracteristicas": [
+    "Esfera texturizada",
+    "Calibre 4R35",
+    "Fondo transparente",
+    "Fecha",
+    "Inspirado en coctelería"
+  ],
+  "stock": 9,
+  "destacado": true
+}

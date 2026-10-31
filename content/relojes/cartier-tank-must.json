@@ -1,0 +1,27 @@
+{
+  "slug": "cartier-tank-must",
+  "nombre": "Tank Must",
+  "descripcion": "Una pieza de diseño atemporal creada en 1917. Caja rectangular, números romanos y la característica corona con cabujón azul de Cartier.",
+  "categoria": "lujo",
+  "imagen": "/images/relojes/cartier-tank-must.svg",
+  "precio": 3250,
+  "marca": "Cartier",
+  "modelo": "WSTA0041",
+  "genero": "Mujer",
+  "movimiento": "Cuarzo",
+  "materialCaja": "Acero inoxidable",
+  "correa": "Cuero",
+  "cristal": "Zafiro",
+  "diametro": 29.5,
+  "resistenciaAgua": 30,
+  "garantia": 2,
+  "caracteristicas": [
+    "Caja rectangular",
+    "Corona con cabujón",
+    "Números romanos",
+    "Agujas de acero azulado",
+    "Diseño de 1917"
+  ],
+  "stock": 4,
+  "destacado": false
+}

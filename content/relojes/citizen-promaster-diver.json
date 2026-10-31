@@ -1,0 +1,27 @@
+{
+  "slug": "citizen-promaster-diver",
+  "nombre": "Promaster Diver Eco-Drive",
+  "descripcion": "Reloj de buceo profesional que no necesita baterías. Su esfera azul con grandes índices luminosos se lee con claridad en aguas profundas.",
+  "categoria": "buceo",
+  "imagen": "/images/relojes/citizen-promaster-diver.svg",
+  "precio": 275,
+  "marca": "Citizen",
+  "modelo": "BN0151-09L",
+  "genero": "Hombre",
+  "movimiento": "Eco-Drive (solar)",
+  "materialCaja": "Acero inoxidable",
+  "correa": "Poliuretano",
+  "cristal": "Mineral",
+  "diametro": 44,
+  "resistenciaAgua": 200,
+  "garantia": 5,
+  "caracteristicas": [
+    "ISO 6425",
+    "Carga solar",
+    "Bisel unidireccional",
+    "Fecha",
+    "Correa con extensión"
+  ],
+  "stock": 15,
+  "destacado": false
+}

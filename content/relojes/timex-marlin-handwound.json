@@ -1,0 +1,27 @@
+{
+  "slug": "timex-marlin-handwound",
+  "nombre": "Marlin Hand-Wound",
+  "descripcion": "Reedición fiel del Marlin de los años sesenta. Movimiento mecánico de cuerda manual, caja de 34 mm y cristal abombado para una estética auténticamente vintage.",
+  "categoria": "clasicos",
+  "imagen": "/images/relojes/timex-marlin-handwound.svg",
+  "precio": 199,
+  "marca": "Timex",
+  "modelo": "TW2R47900",
+  "genero": "Hombre",
+  "movimiento": "Mecánico de cuerda manual",
+  "materialCaja": "Acero inoxidable",
+  "correa": "Cuero",
+  "cristal": "Acrílico abombado",
+  "diametro": 34,
+  "resistenciaAgua": 30,
+  "garantia": 1,
+  "caracteristicas": [
+    "Reedición de 1960",
+    "Cuerda manual",
+    "Cristal tipo domo",
+    "Esfera plateada",
+    "Correa de cuero"
+  ],
+  "stock": 8,
+  "destacado": false
+}

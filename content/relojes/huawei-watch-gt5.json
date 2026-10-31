@@ -1,0 +1,27 @@
+{
+  "slug": "huawei-watch-gt5",
+  "nombre": "Watch GT 5",
+  "descripcion": "Un smartwatch con aspecto de reloj clásico y correa de cuero. Gran autonomía, pantalla AMOLED de alta resolución y sensores TruSense para la salud.",
+  "categoria": "smartwatches",
+  "imagen": "/images/relojes/huawei-watch-gt5.svg",
+  "precio": 249,
+  "marca": "Huawei",
+  "modelo": "55020DGS",
+  "genero": "Unisex",
+  "movimiento": "Digital (HarmonyOS)",
+  "materialCaja": "Acero inoxidable",
+  "correa": "Cuero",
+  "cristal": "Cristal templado",
+  "diametro": 46,
+  "resistenciaAgua": 50,
+  "garantia": 1,
+  "caracteristicas": [
+    "14 días de batería",
+    "Pantalla AMOLED",
+    "TruSense",
+    "GPS",
+    "Más de 100 modos deportivos"
+  ],
+  "stock": 14,
+  "destacado": false
+}

@@ -1,0 +1,27 @@
+{
+  "slug": "hamilton-khaki-field",
+  "nombre": "Khaki Field Mechanical",
+  "descripcion": "Heredero directo de los relojes que Hamilton fabricó para los soldados estadounidenses. Esfera negra legible, cuerda manual y 80 horas de reserva.",
+  "categoria": "clasicos",
+  "imagen": "/images/relojes/hamilton-khaki-field.svg",
+  "precio": 525,
+  "marca": "Hamilton",
+  "modelo": "H69439931",
+  "genero": "Hombre",
+  "movimiento": "Mecánico de cuerda manual",
+  "materialCaja": "Acero inoxidable",
+  "correa": "Nylon (NATO)",
+  "cristal": "Zafiro",
+  "diametro": 38,
+  "resistenciaAgua": 50,
+  "garantia": 2,
+  "caracteristicas": [
+    "Herencia militar",
+    "Reserva de 80 horas",
+    "Calibre H-50",
+    "Índices luminosos",
+    "Correa NATO"
+  ],
+  "stock": 7,
+  "destacado": false
+}

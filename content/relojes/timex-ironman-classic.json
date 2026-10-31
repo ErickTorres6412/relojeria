@@ -1,0 +1,27 @@
+{
+  "slug": "timex-ironman-classic",
+  "nombre": "Ironman Classic 30",
+  "descripcion": "Un clásico del triatlón: ligero, cómodo y con memoria para 30 vueltas. La luz Indiglo ilumina toda la pantalla para entrenar de noche.",
+  "categoria": "deportivos",
+  "imagen": "/images/relojes/timex-ironman-classic.svg",
+  "precio": 59,
+  "marca": "Timex",
+  "modelo": "TW5M44900",
+  "genero": "Unisex",
+  "movimiento": "Cuarzo digital",
+  "materialCaja": "Resina",
+  "correa": "Resina",
+  "cristal": "Acrílico",
+  "diametro": 38,
+  "resistenciaAgua": 100,
+  "garantia": 1,
+  "caracteristicas": [
+    "Cronógrafo de 30 vueltas",
+    "Luz Indiglo",
+    "Temporizador",
+    "3 alarmas",
+    "Botones de fácil acceso"
+  ],
+  "stock": 30,
+  "destacado": false
+}

@@ -50,7 +50,7 @@ Las imágenes de los relojes son ilustraciones generadas con `npm run imagenes`.
 
 1. **Snipcart:** crear cuenta en snipcart.com, copiar la *clave pública de prueba* y registrar el dominio de Netlify en *Dominios*.
 2. **Utterances:** instalar la app desde github.com/apps/utterances en el repositorio público `ErickTorres6412/relojeria`.
-3. **Netlify:** el sitio `relojeria-cronos` ya tiene definidas `NUXT_PUBLIC_SITE_URL` y `NUXT_PUBLIC_UTTERANCES_REPO`. Falta agregar `NUXT_PUBLIC_SNIPCART_API_KEY` con la clave pública de Snipcart y volver a publicar.
+3. **Netlify:** el sitio `relojeria-cronos` tiene definidas `NUXT_PUBLIC_SITE_URL`, `NUXT_PUBLIC_UTTERANCES_REPO` y `NUXT_PUBLIC_SNIPCART_API_KEY` (clave pública de prueba).
 
 ### Volver a publicar desde la terminal
 

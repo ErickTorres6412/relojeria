@@ -320,7 +320,7 @@ button:disabled:hover {
 .pie {
   background: var(--azul);
   color: #d7d2c6;
-  padding: 3rem 0 1.5rem;
+  padding: 3rem 0 1rem;
   font-size: 1.4rem;
 }
 .pie h6 { color: var(--dorado); text-transform: uppercase; letter-spacing: .1rem; font-weight: 600; }
